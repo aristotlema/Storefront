@@ -1,0 +1,25 @@
+.main-nav-bar {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    height: 8vh;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1); 
+}
+.main-nav-bar div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-nav-left{
+    flex:1;
+}
+.main-nav-spacer{
+    flex:1;
+}
+
+.main-nav-right{
+    flex: 1;
+}
+
